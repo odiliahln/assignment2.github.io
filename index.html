@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
+    />
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <link
+      rel="stylesheet"
+      href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"
+    />
+    <title>Kanban Board</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div
+          class="card-header"
+          style="background-color: rgba(97, 21, 220, 0.532)"
+        >
+          <h1 class="card-title text-white">Kanban Board</h1>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-primary text-white">
+                  <h3 class="card-title">Todo</h3>
+                </div>
+                <div class="card-body">
+                  <!-- Add your To Do tasks here -->
+                  <div class="card card-danger card-outline">
+                    <div class="card-header">
+                      <h3 class="card-title">Frontend</h3>
+                    </div>
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus.
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <form action="">
+                    <button class="btn btn-primary btn-block">
+                      <i class="fa fa-plus"></i> Add New
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-warning text-white">
+                  <h3 class="card-title">On Progress</h3>
+                </div>
+                <div class="card-body">
+                  <!-- Add your To Do tasks here -->
+                  <div class="card card-info card-outline">
+                    <div class="card-header">
+                      <h5 class="card-title">Create Labels</h5>
+                      <div class="card-tools">
+                        <a href="#" class="btn btn-tool btn-link">#3</a>
+                        <a href="#" class="btn btn-tool">
+                          <i class="fas fa-pen"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox1"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox1"
+                          class="custom-control-label"
+                          >Bug</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox2"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox2"
+                          class="custom-control-label"
+                          >Feature</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox3"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox3"
+                          class="custom-control-label"
+                          >Enhancement</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox4"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox4"
+                          class="custom-control-label"
+                          >Documentation</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox5"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox5"
+                          class="custom-control-label"
+                          >Examples</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <form action="">
+                    <button class="btn btn-warning btn-block">
+                      <i class="fa fa-plus"></i> Add New
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-success text-white">
+                  <h3 class="card-title">Done</h3>
+                </div>
+                <div class="card-body">
+                  <!-- Add your To Do tasks here -->
+                  <div class="card card-info card-outline">
+                    <div class="card-header">
+                      <h5 class="card-title">Create Labels</h5>
+                      <div class="card-tools">
+                        <a href="#" class="btn btn-tool btn-link">#3</a>
+                        <a href="#" class="btn btn-tool">
+                          <i class="fas fa-pen"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox1"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox1"
+                          class="custom-control-label"
+                          >Bug</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox2"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox2"
+                          class="custom-control-label"
+                          >Feature</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox3"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox3"
+                          class="custom-control-label"
+                          >Enhancement</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox4"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox4"
+                          class="custom-control-label"
+                          >Documentation</label
+                        >
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          class="custom-control-input"
+                          type="checkbox"
+                          id="customCheckbox5"
+                          disabled
+                        />
+                        <label
+                          for="customCheckbox5"
+                          class="custom-control-label"
+                          >Examples</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <form action="">
+                    <button class="btn btn-success btn-block">
+                      <i class="fa fa-plus"></i> Add New
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"
+></script>
